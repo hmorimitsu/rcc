@@ -1,6 +1,6 @@
 # RCC Dataset
 
-**Resolution-Calibrated Corruptions (RCC)** is a synthetic image dataset designed for evaluating the effect of corruptions at multiple scales. It was introduced in the Electronics 2026 paper *High-Resolution Perception at Scale: Benchmarking Dense Geometric Models via Resolution-Calibrated Corruptions* to benchmark optical flow and depth estimation models. It extends the [Kubric-NK dataset](https://huggingface.co/datasets/hmorimitsu/kubric-nk) by providing 22,680 images distributed across 630 samples at 1K, 2K, and 4K resolutions with 12 types of corruptions:
+**Resolution-Calibrated Corruptions (RCC)** is a synthetic image dataset designed for evaluating the effect of corruptions at multiple scales. It was introduced in the Electronics 2026 paper *High-Resolution Perception at Scale: Benchmarking Dense Geometric Models via Resolution-Calibrated Corruptions* to benchmark optical flow and depth estimation models. It extends the [Kubric-NK dataset](https://github.com/hmorimitsu/kubric-nk) by providing 22,680 images distributed across 630 samples at 1K, 2K, and 4K resolutions with 12 types of corruptions:
 
 - **Blur:** Defocus Blur, Gaussian Blur, and Motion Blur.
 - **Lighting:** Low Light, Overexposure, and Sunlight.
